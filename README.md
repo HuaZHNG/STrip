@@ -2,7 +2,7 @@
 Construction of an Epidemic Map website for 2020 Google Girl Hackathon.
 
 ## Introduction
-- Two folders, `STrip` for front-end code (html + CSS + JS) and `backend` for back-end code (Python + Java). 
+- Two folders, `sTrip` for front-end code (html + CSS + JS) and `backend` for back-end code (Python + Java). 
 
 |     | Version | Note |
 | --- | ------ | ---- |
@@ -20,7 +20,7 @@ Construction of an Epidemic Map website for 2020 Google Girl Hackathon.
 ## Getting Started
 ```
 # 01 clone the project
-git clone git@github.com:HuaZHNG/2020GHackathon.git
+git clone git@github.com:HuaZHNG/STrip.git
 
 # 02 complete installations
 
