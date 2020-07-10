@@ -1,0 +1,159 @@
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    body {
+        overflow-x: hidden;
+        background: white;
+    }
+    
+    html {
+        widows: 100%;
+        position: relative;
+        min-height: 100%;
+    }
+    
+    #map_id {
+        position: absolute;
+        width: 79%;
+        /* height: 85%; */
+        top: 8%;
+        left: 21%;
+        bottom: 10%;
+        z-index: 10;
+    }
+    
+    #amap_id {
+        position: absolute;
+        width: 85%;
+        height: 86%;
+        left: 270px;
+        top: 8%;
+        bottom: 10%;
+        z-index: 10;
+    }
+    /*非常重要的样式让背景图片100%适应整个屏幕*/
+    
+    .bottom {
+        position: absolute;
+        bottom: 12%;
+    }
+    
+    .setFooter {
+        background: #26292F;
+        height: 80px;
+        width: 100%;
+        position: relative;
+        /* top: 120px; */
+        z-index: 13;
+        padding: 0px;
+    }
+    
+    .setFooter p {
+        position: relative;
+        left: 40px;
+        color: white;
+        font-weight: 200;
+        font-family: Helvetica Neue;
+        font-size: 13px;
+    }
+    
+    .ex_img {
+        border-radius: 100px;
+        width: 60%;
+        position: relative;
+        top: 30px;
+        left: 50px;
+        box-shadow: 0px 2px 2px #9e9e9e;
+    }
+    
+    .bg {
+        display: table;
+        width: 100%;
+        height: 100%;
+        padding: 100px 0;
+        text-align: center;
+        color: #fff;
+        background: url(http://www.xiandanke.cn/Image/intro-bg.jpg) no-repeat bottom center;
+        background-color: #000;
+        background-size: cover;
+    }
+    
+    .shade {
+        border-radius: 15px;
+    }
+    
+    .my-navbar {
+        padding: 20px 0;
+        transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    }
+    
+    .my-navbar a {
+        background: transparent !important;
+        color: #e0e0e0 !important;
+        font-size: 18px;
+        font-family: Helvetica;
+        font-weight: 300;
+    }
+    
+    .my-navbar a:hover {
+        color: #fff !important;
+        outline: 0;
+    }
+    
+    .my-navbar a {
+        transition: color 0.5s ease-in-out;
+    }
+    /*-webkit-transition ;-moz-transition*/
+    
+    .top-nav {
+        padding: 0;
+        background: #000;
+    }
+    
+    button.navbar-toggle {
+        background-color: #fbfbfb;
+    }
+    /*整个背景都是transparent透明的，会看不到，所以再次覆盖一下*/
+    
+    button.navbar-toggle>span.icon-bar {
+        background-color: #dedede
+    }
+    
+    .carousel {
+        height: 650px;
+        margin-bottom: 70px;
+        background-color: #26292F;
+    }
+    
+    .carousel .item {
+        height: 650px;
+    }
+    
+    .carousel .item img {
+        width: 100%;
+    }
+    
+    .carousel .item h1 {
+        position: relative;
+        bottom: 300px;
+        right: 280px;
+        font-size: 64px;
+        font-family: Helvetica Neue;
+        font-weight: 900;
+        color: white;
+    }
+    
+    .carousel p {
+        position: absolute;
+        bottom: 220px;
+        right: 300px;
+        font-family: Helvetica Neue;
+        font-weight: 200;
+        font-size: 18px;
+        text-align: left;
+    }

@@ -1,0 +1,10 @@
+MAP_FILE: 'map'
+PARAMS:
+  total_cnt: 500
+  original_cnt: 50
+  broad_rate: 0.8
+  shadow_time: 7
+  move_value: 0.99
+  safe_dist: 5
+  cure_time: 10
+  freeze_rate: 0.8

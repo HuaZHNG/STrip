@@ -1,0 +1,120 @@
+body {
+    /* background: #616161; */
+}
+
+html {
+    overflow: hidden;
+}
+
+#user-info {
+    background: #616161;
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    top: 8%;
+    border: none;
+    /* border-color: #424242; */
+}
+
+.my-navbar {
+    padding: 0;
+    background: #26292F;
+    height: 70px;
+    padding: 15px;
+}
+
+#user-avatar {
+    height: 50%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+#user-name {
+    position: absolute;
+    left: 10%;
+    /* top: 13%; */
+    color: white;
+    font-weight: 300;
+    font-size: 48px;
+}
+
+#bottom-part {
+    position: absolute;
+    top: 33%;
+    width: 100%;
+    padding-right: 10px
+}
+
+#introduction {
+    position: relative;
+    left: 10%;
+    top: 40%;
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    width: 50%;
+}
+
+.card {
+    background: #757575;
+    overflow: auto;
+    height: 463px;
+}
+
+.card-bg {
+    background: #616161;
+}
+
+.setFooter {
+    width: 500%;
+    height: 80px;
+    /* padding: 15px; */
+    font-size: 13px;
+}
+
+.card-font {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.card-font-h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.card-margin {
+    margin-bottom: -30px;
+}
+
+.change-part {
+    position: relative;
+    left: 25%;
+    top: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-font {
+    background: #616161;
+    font-size: 12px;
+    color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    font-weight: 200;
+}
+
+.button-font:hover {
+    color: #ffffff;
+}
+
+.li-p {
+    color: white;
+    font-size: 14px;
+    font-family: PingFang SC;
+    font-weight: 100;
+}
+
+.li-p:hover {
+    color: #bdbdbd;
+}
